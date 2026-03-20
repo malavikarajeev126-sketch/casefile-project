@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wanted Poster</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Georgia", serif;
+            background: linear-gradient(135deg, #1a1a1a, #3b0a0a);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .poster {
+            background: #fff;
+            color:#000;
+            width: 380px;
+            padding: 25px;
+            border: 6px solid #8b0000;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .poster h1 {
+            font-size: 42px;
+            margin: 0;
+            color color: #8b0000;
+            letter-spacing: 3px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            margin-top: 5px;
+            letter-spacing: 2px;
+        }
+
+        .photo {
+            width: 100%;
+            height: 180px;
+            background: #ccc;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: #555;
+            border: 2px dashed #999;
+        }
+
+        .details {
+            text-align: left;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .details p {
+            margin: 6px 0;
+        }
+
+        .reward {
+            margin: 20px 0;
+            font-size: 22px;
+            font-weight: bold;
+            color: #8b0000;
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            padding: 10px 0;
+        }
+
+        .footer {
+            font-size: 12px;
+            margin-top: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="poster">
+        <h1>WANTED</h1>
+        <div class="subtitle">FOR INVESTIGATION</div>
+
+        <div class="photo">
+            Suspect Image
+        </div>
+
+        <div class="details">
+            <p><strong>Case ID:</strong> NW-01</p>
+            <p><strong>Last Seen:</strong> Unknown Location</p>
+            <p><strong>Charges:</strong> Under Investigation</p>
+        </div>
+
+        <div class="reward">
+            REWARD ₹50,000
+        </div>
+
+        <div class="footer">
+            If found, report to the nearest police station.<br>
+            Do not attempt to approach.
+        </div>
+    </div>
+
+</body>
+
+</html>
