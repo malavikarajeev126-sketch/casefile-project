@@ -2,7 +2,7 @@ import google.generativeai as genai
 import json
 
 # Replace 'YOUR_API_KEY' with the key you got from AI Studio
-genai.configure(api_key="AIzaSyB0Wx_1fdHE3ZXTakH1qPKj3OZEWqzmias")
+genai.configure(api_key="YOUR_API_KEY")
 
 # This is Step 1 & 4 combined: Setting the persona and the JSON requirement
 instructions = (
